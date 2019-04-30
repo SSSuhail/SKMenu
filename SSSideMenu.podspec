@@ -8,7 +8,7 @@ s.summary = "SideMenu is simple way to have menu's in app, both right and left m
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "1.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -17,11 +17,12 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Suhail Shabir" => "suhailshabir176@gmail.com" }
 
 # 5
-s.homepage = "https://github.com/SSSuhail/SideMenu"
+s.homepage = "https://github.com/SSSuhail/SSSideMenu"
 
 # 6
-s.source = { :git => "https://github.com/SSSuhail/SideMenu.git",
+s.source = { :git => "https://github.com/SSSuhail/SSSideMenu.git",
 :tag => "#{s.version}" }
+
 
 # 7
 s.framework = "UIKit"
@@ -33,7 +34,7 @@ s.source_files = "SideMenu/**/*.{swift}"
 s.resources = "SideMenu/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
-s.swift_version = "4.0"
+s.swift_version = "5.0"
 
 end
 
