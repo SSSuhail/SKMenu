@@ -1,14 +1,15 @@
+
 Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '10.0'
-s.name = "SideMenu"
+s.ios.deployment_target = '11.0'
+s.name = "SSSideMenu"
 s.summary = "SideMenu is simple way to have menu's in app, both right and left menu can be added."
 s.requires_arc = true
 
 # 2
-s.version = "1.1"
+s.version = "1.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
